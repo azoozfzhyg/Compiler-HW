@@ -5,7 +5,7 @@ from email_scraper.items import EmailScraperItem
 class EmailSpider9000(scrapy.Spider):
     name = "email_spider_9000"
     start_urls = [
-        'https://ccis.ksu.edu.sa/en'#insert the url you want to scrape here
+        'https://cs.ksu.edu.sa/ar/cs/faculty-and-staff'#insert the url you want to scrape here
     ]
     email_regex = re.compile('[a-zA-Z0-9_.+]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+')
     
